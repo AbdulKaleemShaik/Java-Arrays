@@ -3,7 +3,7 @@ public class floor {
         int[] ar = { 2, 3, 5, 9, 14, 16, 23 };
         System.out.println(floor(ar, 1));
     }
-
+//Floor is nothing but writing the element which is lesser than or equal to the given target
     static int floor(int[] arr, int target) {
         int f = 0, l = arr.length - 1;
         if (target < arr[0]) {
