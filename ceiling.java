@@ -4,7 +4,7 @@ class ceiling {
         System.out.println(ceiling(ar, 24));
 
     }
-
+// ceiling is nothing but writing the element which is greater than or equal to the given target
     static int ceiling(int[] arr, int target) {
         int f = 0, l = arr.length - 1;
         if (target > arr[arr.length - 1]) {
